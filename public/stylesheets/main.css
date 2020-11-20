@@ -1,0 +1,41 @@
+* {
+    background-color: bisque;
+}
+
+.site-layout{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.header {
+    width: 100%;
+    flex: 0;
+  }
+  
+  .site-body {
+    width: 100%;
+    flex: 1;
+  }
+  
+  .bottom {
+    width: 100%;
+    flex: 0;
+  }
+
+  .main-flex {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      width: 100%;
+  }
+
+  .site-menu {
+      width: fit-content;
+      flex: 0;
+  }
+  .site-content{
+      flex: 1;
+      padding-left: 2rem;
+  }
